@@ -1,0 +1,38 @@
+[0.010s] Invoking command in '/home/octobotics/arm_ros2_ws/build/ball_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/octobotics/arm_ros2_ws/install/robotic_arms_control:/opt/ros/humble /usr/bin/cmake --build /home/octobotics/arm_ros2_ws/build/ball_visualization -- -j16 -l16
+[0.076s] [ 50%] [32mBuilding CXX object CMakeFiles/panda_if.dir/src/panda_if.cpp.o[0m
+[0.077s] [ 62%] Built target semulate_joy
+[0.077s] [ 62%] Built target panda_fk
+[0.077s] [ 87%] Built target point_publisher
+[2.764s] [01m[K/home/octobotics/arm_ros2_ws/Robotic_arm/src/ball_visualization/src/panda_if.cpp:[m[K In member function ‘[01m[Kstd::vector<double, std::allocator<double> > InverseKinematics::computeIK(double, double, double, double, double, double)[m[K’:
+[2.765s] [01m[K/home/octobotics/arm_ros2_ws/Robotic_arm/src/ball_visualization/src/panda_if.cpp:45:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kroll[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.765s]    45 | std::vector<double> computeIK(double x, double y, double z, [01;35m[Kdouble roll[m[K, double pitch, double yaw) {
+[2.765s]       |                                                             [01;35m[K~~~~~~~^~~~[m[K
+[2.765s] [01m[K/home/octobotics/arm_ros2_ws/Robotic_arm/src/ball_visualization/src/panda_if.cpp:45:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpitch[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.765s]    45 | std::vector<double> computeIK(double x, double y, double z, double roll, [01;35m[Kdouble pitch[m[K, double yaw) {
+[2.765s]       |                                                                          [01;35m[K~~~~~~~^~~~~[m[K
+[8.041s] [100%] [32m[1mLinking CXX executable panda_if[0m
+[8.494s] [100%] Built target panda_if
+[8.508s] Invoked command in '/home/octobotics/arm_ros2_ws/build/ball_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/octobotics/arm_ros2_ws/install/robotic_arms_control:/opt/ros/humble /usr/bin/cmake --build /home/octobotics/arm_ros2_ws/build/ball_visualization -- -j16 -l16
+[8.554s] Invoking command in '/home/octobotics/arm_ros2_ws/build/ball_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/octobotics/arm_ros2_ws/install/robotic_arms_control:/opt/ros/humble /usr/bin/cmake --install /home/octobotics/arm_ros2_ws/build/ball_visualization
+[8.562s] -- Install configuration: ""
+[8.562s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/lib/ball_visualization/point_publisher
+[8.562s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/lib/ball_visualization/panda_fk
+[8.562s] -- Installing: /home/octobotics/arm_ros2_ws/install/ball_visualization/lib/ball_visualization/panda_if
+[8.565s] -- Set runtime path of "/home/octobotics/arm_ros2_ws/install/ball_visualization/lib/ball_visualization/panda_if" to ""
+[8.565s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/lib/ball_visualization/semulate_joy
+[8.565s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ament_index/resource_index/package_run_dependencies/ball_visualization
+[8.565s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ament_index/resource_index/parent_prefix_path/ball_visualization
+[8.565s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/environment/ament_prefix_path.sh
+[8.565s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/environment/ament_prefix_path.dsv
+[8.565s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/environment/path.sh
+[8.565s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/environment/path.dsv
+[8.566s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/local_setup.bash
+[8.566s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/local_setup.sh
+[8.566s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/local_setup.zsh
+[8.566s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/local_setup.dsv
+[8.566s] -- Installing: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/package.dsv
+[8.566s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ament_index/resource_index/packages/ball_visualization
+[8.566s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/cmake/ball_visualizationConfig.cmake
+[8.566s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/cmake/ball_visualizationConfig-version.cmake
+[8.566s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/package.xml
+[8.569s] Invoked command in '/home/octobotics/arm_ros2_ws/build/ball_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/octobotics/arm_ros2_ws/install/robotic_arms_control:/opt/ros/humble /usr/bin/cmake --install /home/octobotics/arm_ros2_ws/build/ball_visualization

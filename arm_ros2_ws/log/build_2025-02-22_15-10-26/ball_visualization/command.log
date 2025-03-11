@@ -1,0 +1,2 @@
+Invoking command in '/home/octobotics/arm_ros2_ws/build/ball_visualization': /usr/bin/cmake --build /home/octobotics/arm_ros2_ws/build/ball_visualization -- -j16 -l16
+Invoked command in '/home/octobotics/arm_ros2_ws/build/ball_visualization' returned '2': /usr/bin/cmake --build /home/octobotics/arm_ros2_ws/build/ball_visualization -- -j16 -l16

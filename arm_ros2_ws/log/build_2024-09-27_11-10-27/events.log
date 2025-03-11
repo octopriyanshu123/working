@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.000188] (-) JobUnselected: {'identifier': 'panda_description'}
+[0.000375] (ball_visualization) JobQueued: {'identifier': 'ball_visualization', 'dependencies': OrderedDict()}
+[0.000605] (ball_visualization) JobStarted: {'identifier': 'ball_visualization'}
+[0.008279] (ball_visualization) JobProgress: {'identifier': 'ball_visualization', 'progress': 'cmake'}
+[0.008867] (ball_visualization) JobProgress: {'identifier': 'ball_visualization', 'progress': 'build'}
+[0.009628] (ball_visualization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/octobotics/arm_ros2_ws/build/ball_visualization', '--', '-j16', '-l16'], 'cwd': '/home/octobotics/arm_ros2_ws/build/ball_visualization', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'octobotics'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.1/lib64:'), ('HOME', '/home/octobotics'), ('OLDPWD', '/home/octobotics'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '7257'), ('SYSTEMD_EXEC_PID', '7576'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '108887'), ('COLCON_PREFIX_PATH', '/home/octobotics/arm_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'octobotics'), ('JOURNAL_STREAM', '8:32259'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'octobotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.1/bin:/home/octobotics/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/octobotics:@/tmp/.ICE-unix/7549,unix/octobotics:/tmp/.ICE-unix/7549'), ('INVOCATION_ID', '73898ea7ea7c4bcf8e361094523048e6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/home/octobotics/arm_ros2_ws/install/ball_visualization:/home/octobotics/arm_ros2_ws/install/robotic_arms_control:/home/octobotics/arm_ros2_ws/install/panda_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:6230451e-0d79-4769-b98e-778b15ea2095'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/octobotics/arm_ros2_ws/build/ball_visualization'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/octobotics/arm_ros2_ws/install/robotic_arms_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/octobotics/arm_ros2_ws/install/ball_visualization:/home/octobotics/arm_ros2_ws/install/panda_description:/home/octobotics/arm_ros2_ws/install/robotic_arms_control:/opt/ros/humble')]), 'shell': False}
+[0.060193] (ball_visualization) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target panda_if\x1b[0m\n'}
+[0.078281] (ball_visualization) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/panda_fk.dir/src/panda_fk.cpp.o\x1b[0m\n'}
+[0.078548] (ball_visualization) StdoutLine: {'line': b'[ 62%] Built target point_publisher\n'}
+[0.078636] (ball_visualization) StdoutLine: {'line': b'[ 62%] Built target semulate_joy\n'}
+[0.087830] (ball_visualization) StdoutLine: {'line': b'[ 87%] Built target panda_if\n'}
+[0.099782] (-) TimerEvent: {}
+[0.200083] (-) TimerEvent: {}
+[0.300501] (-) TimerEvent: {}
+[0.400845] (-) TimerEvent: {}
+[0.501189] (-) TimerEvent: {}
+[0.601612] (-) TimerEvent: {}
+[0.702059] (-) TimerEvent: {}
+[0.802452] (-) TimerEvent: {}
+[0.902807] (-) TimerEvent: {}
+[1.003333] (-) TimerEvent: {}
+[1.103919] (-) TimerEvent: {}
+[1.204489] (-) TimerEvent: {}
+[1.304928] (-) TimerEvent: {}
+[1.405282] (-) TimerEvent: {}
+[1.505603] (-) TimerEvent: {}
+[1.605916] (-) TimerEvent: {}
+[1.706293] (-) TimerEvent: {}
+[1.806677] (-) TimerEvent: {}
+[1.907045] (-) TimerEvent: {}
+[2.007457] (-) TimerEvent: {}
+[2.107868] (-) TimerEvent: {}
+[2.208235] (-) TimerEvent: {}
+[2.308580] (-) TimerEvent: {}
+[2.409198] (-) TimerEvent: {}
+[2.509794] (-) TimerEvent: {}
+[2.610320] (-) TimerEvent: {}
+[2.710858] (-) TimerEvent: {}
+[2.811342] (-) TimerEvent: {}
+[2.911746] (-) TimerEvent: {}
+[3.012296] (-) TimerEvent: {}
+[3.112936] (-) TimerEvent: {}
+[3.213545] (-) TimerEvent: {}
+[3.313904] (-) TimerEvent: {}
+[3.414281] (-) TimerEvent: {}
+[3.514606] (-) TimerEvent: {}
+[3.614999] (-) TimerEvent: {}
+[3.715375] (-) TimerEvent: {}
+[3.815675] (-) TimerEvent: {}
+[3.915965] (-) TimerEvent: {}
+[4.016261] (-) TimerEvent: {}
+[4.116589] (-) TimerEvent: {}
+[4.216977] (-) TimerEvent: {}
+[4.317290] (-) TimerEvent: {}
+[4.417612] (-) TimerEvent: {}
+[4.518016] (-) TimerEvent: {}
+[4.618382] (-) TimerEvent: {}
+[4.718699] (-) TimerEvent: {}
+[4.819028] (-) TimerEvent: {}
+[4.919350] (-) TimerEvent: {}
+[5.019658] (-) TimerEvent: {}
+[5.120077] (-) TimerEvent: {}
+[5.220471] (-) TimerEvent: {}
+[5.320880] (-) TimerEvent: {}
+[5.421175] (-) TimerEvent: {}
+[5.521515] (-) TimerEvent: {}
+[5.621804] (-) TimerEvent: {}
+[5.722099] (-) TimerEvent: {}
+[5.822465] (-) TimerEvent: {}
+[5.922816] (-) TimerEvent: {}
+[6.023153] (-) TimerEvent: {}
+[6.123513] (-) TimerEvent: {}
+[6.223839] (-) TimerEvent: {}
+[6.324193] (-) TimerEvent: {}
+[6.424599] (-) TimerEvent: {}
+[6.524955] (-) TimerEvent: {}
+[6.625279] (-) TimerEvent: {}
+[6.725589] (-) TimerEvent: {}
+[6.825961] (-) TimerEvent: {}
+[6.926368] (-) TimerEvent: {}
+[7.026744] (-) TimerEvent: {}
+[7.127084] (-) TimerEvent: {}
+[7.227444] (-) TimerEvent: {}
+[7.327786] (-) TimerEvent: {}
+[7.428077] (-) TimerEvent: {}
+[7.528392] (-) TimerEvent: {}
+[7.628721] (-) TimerEvent: {}
+[7.729072] (-) TimerEvent: {}
+[7.829429] (-) TimerEvent: {}
+[7.929735] (-) TimerEvent: {}
+[8.030038] (-) TimerEvent: {}
+[8.130372] (-) TimerEvent: {}
+[8.230719] (-) TimerEvent: {}
+[8.331040] (-) TimerEvent: {}
+[8.431398] (-) TimerEvent: {}
+[8.531731] (-) TimerEvent: {}
+[8.632170] (-) TimerEvent: {}
+[8.732626] (-) TimerEvent: {}
+[8.763031] (ball_visualization) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable panda_fk\x1b[0m\n'}
+[8.832750] (-) TimerEvent: {}
+[8.933217] (-) TimerEvent: {}
+[9.033843] (-) TimerEvent: {}
+[9.134402] (-) TimerEvent: {}
+[9.216168] (ball_visualization) StdoutLine: {'line': b'[100%] Built target panda_fk\n'}
+[9.228461] (ball_visualization) CommandEnded: {'returncode': 0}
+[9.234477] (-) TimerEvent: {}
+[9.264023] (ball_visualization) JobProgress: {'identifier': 'ball_visualization', 'progress': 'install'}
+[9.274424] (ball_visualization) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/octobotics/arm_ros2_ws/build/ball_visualization'], 'cwd': '/home/octobotics/arm_ros2_ws/build/ball_visualization', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'octobotics'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.1/lib64:'), ('HOME', '/home/octobotics'), ('OLDPWD', '/home/octobotics'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '7257'), ('SYSTEMD_EXEC_PID', '7576'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '108887'), ('COLCON_PREFIX_PATH', '/home/octobotics/arm_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'octobotics'), ('JOURNAL_STREAM', '8:32259'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'octobotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.1/bin:/home/octobotics/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/octobotics:@/tmp/.ICE-unix/7549,unix/octobotics:/tmp/.ICE-unix/7549'), ('INVOCATION_ID', '73898ea7ea7c4bcf8e361094523048e6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/home/octobotics/arm_ros2_ws/install/ball_visualization:/home/octobotics/arm_ros2_ws/install/robotic_arms_control:/home/octobotics/arm_ros2_ws/install/panda_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:6230451e-0d79-4769-b98e-778b15ea2095'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/octobotics/arm_ros2_ws/build/ball_visualization'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/octobotics/arm_ros2_ws/install/robotic_arms_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/octobotics/arm_ros2_ws/install/ball_visualization:/home/octobotics/arm_ros2_ws/install/panda_description:/home/octobotics/arm_ros2_ws/install/robotic_arms_control:/opt/ros/humble')]), 'shell': False}
+[9.284645] (ball_visualization) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.284905] (ball_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/lib/ball_visualization/point_publisher\n'}
+[9.285169] (ball_visualization) StdoutLine: {'line': b'-- Installing: /home/octobotics/arm_ros2_ws/install/ball_visualization/lib/ball_visualization/panda_fk\n'}
+[9.287869] (ball_visualization) StdoutLine: {'line': b'-- Set runtime path of "/home/octobotics/arm_ros2_ws/install/ball_visualization/lib/ball_visualization/panda_fk" to ""\n'}
+[9.288103] (ball_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/lib/ball_visualization/panda_if\n'}
+[9.288418] (ball_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/lib/ball_visualization/semulate_joy\n'}
+[9.288587] (ball_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ament_index/resource_index/package_run_dependencies/ball_visualization\n'}
+[9.288697] (ball_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ament_index/resource_index/parent_prefix_path/ball_visualization\n'}
+[9.288803] (ball_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/environment/ament_prefix_path.sh\n'}
+[9.288901] (ball_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/environment/ament_prefix_path.dsv\n'}
+[9.288991] (ball_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/environment/path.sh\n'}
+[9.289057] (ball_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/environment/path.dsv\n'}
+[9.289144] (ball_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/local_setup.bash\n'}
+[9.289244] (ball_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/local_setup.sh\n'}
+[9.289321] (ball_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/local_setup.zsh\n'}
+[9.289384] (ball_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/local_setup.dsv\n'}
+[9.289446] (ball_visualization) StdoutLine: {'line': b'-- Installing: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/package.dsv\n'}
+[9.289509] (ball_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ament_index/resource_index/packages/ball_visualization\n'}
+[9.289571] (ball_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/cmake/ball_visualizationConfig.cmake\n'}
+[9.289632] (ball_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/cmake/ball_visualizationConfig-version.cmake\n'}
+[9.289693] (ball_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/package.xml\n'}
+[9.291192] (ball_visualization) CommandEnded: {'returncode': 0}
+[9.334655] (-) TimerEvent: {}
+[9.341651] (ball_visualization) JobEnded: {'identifier': 'ball_visualization', 'rc': 0}
+[9.342327] (-) EventReactorShutdown: {}

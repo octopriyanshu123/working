@@ -1,0 +1,4 @@
+[ 87%] Built target semulate_joy
+[ 87%] Built target panda_fk
+[ 87%] [32mBuilding CXX object CMakeFiles/panda_if.dir/src/panda_if.cpp.o[0m
+[ 87%] Built target point_publisher

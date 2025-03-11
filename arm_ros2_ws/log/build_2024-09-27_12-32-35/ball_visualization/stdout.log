@@ -1,0 +1,27 @@
+[ 75%] Built target panda_fk
+[ 75%] Built target point_publisher
+[ 87%] Built target semulate_joy
+[ 87%] [32mBuilding CXX object CMakeFiles/panda_if.dir/src/panda_if.cpp.o[0m
+[100%] [32m[1mLinking CXX executable panda_if[0m
+[100%] Built target panda_if
+-- Install configuration: ""
+-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/lib/ball_visualization/point_publisher
+-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/lib/ball_visualization/panda_fk
+-- Installing: /home/octobotics/arm_ros2_ws/install/ball_visualization/lib/ball_visualization/panda_if
+-- Set runtime path of "/home/octobotics/arm_ros2_ws/install/ball_visualization/lib/ball_visualization/panda_if" to ""
+-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/lib/ball_visualization/semulate_joy
+-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ament_index/resource_index/package_run_dependencies/ball_visualization
+-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ament_index/resource_index/parent_prefix_path/ball_visualization
+-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/environment/ament_prefix_path.sh
+-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/environment/path.sh
+-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/environment/path.dsv
+-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/local_setup.bash
+-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/local_setup.sh
+-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/local_setup.zsh
+-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/local_setup.dsv
+-- Installing: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/package.dsv
+-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ament_index/resource_index/packages/ball_visualization
+-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/cmake/ball_visualizationConfig.cmake
+-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/cmake/ball_visualizationConfig-version.cmake
+-- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/package.xml

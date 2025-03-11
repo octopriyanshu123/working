@@ -1,0 +1,21 @@
+[0.011s] Invoking command in '/home/octobotics/arm_ros2_ws/build/ball_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/octobotics/arm_ros2_ws/install/robotic_arms_control:/opt/ros/humble /usr/bin/cmake --build /home/octobotics/arm_ros2_ws/build/ball_visualization -- -j16 -l16
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target panda_if[0m
+[0.080s] [ 75%] Built target point_publisher
+[0.080s] [ 75%] Built target semulate_joy
+[0.080s] [ 75%] Built target panda_fk
+[0.087s] [ 87%] [32mBuilding CXX object CMakeFiles/panda_if.dir/src/panda_if.cpp.o[0m
+[2.977s] [01m[K/home/octobotics/arm_ros2_ws/Robotic_arm/src/ball_visualization/src/panda_if.cpp:[m[K In member function ‘[01m[Kvoid InverseKinematics::poseCallback(geometry_msgs::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.978s] [01m[K/home/octobotics/arm_ros2_ws/Robotic_arm/src/ball_visualization/src/panda_if.cpp:32:14:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix3x3[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+[2.978s]    32 |         tf2::[01;31m[KMatrix3x3[m[K(q).getRPY(roll, pitch, yaw);
+[2.978s]       |              [01;31m[K^~~~~~~~~[m[K
+[2.979s] [01m[K/home/octobotics/arm_ros2_ws/Robotic_arm/src/ball_visualization/src/panda_if.cpp:[m[K In member function ‘[01m[Kstd::vector<double, std::allocator<double> > InverseKinematics::computeIK(double, double, double, double, double, double)[m[K’:
+[2.979s] [01m[K/home/octobotics/arm_ros2_ws/Robotic_arm/src/ball_visualization/src/panda_if.cpp:44:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kroll[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.979s]    44 | std::vector<double> computeIK(double x, double y, double z, [01;35m[Kdouble roll[m[K, double pitch, double yaw) {
+[2.979s]       |                                                             [01;35m[K~~~~~~~^~~~[m[K
+[2.979s] [01m[K/home/octobotics/arm_ros2_ws/Robotic_arm/src/ball_visualization/src/panda_if.cpp:44:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpitch[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.979s]    44 | std::vector<double> computeIK(double x, double y, double z, double roll, [01;35m[Kdouble pitch[m[K, double yaw) {
+[2.979s]       |                                                                          [01;35m[K~~~~~~~^~~~~[m[K
+[5.633s] gmake[2]: *** [CMakeFiles/panda_if.dir/build.make:76: CMakeFiles/panda_if.dir/src/panda_if.cpp.o] Error 1
+[5.633s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/panda_if.dir/all] Error 2
+[5.633s] gmake: *** [Makefile:146: all] Error 2
+[5.637s] Invoked command in '/home/octobotics/arm_ros2_ws/build/ball_visualization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/octobotics/arm_ros2_ws/install/robotic_arms_control:/opt/ros/humble /usr/bin/cmake --build /home/octobotics/arm_ros2_ws/build/ball_visualization -- -j16 -l16

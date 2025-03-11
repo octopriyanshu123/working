@@ -1,0 +1,10 @@
+[0.014s] Invoking command in '/home/octobotics/arm_ros2_ws/build/panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/octobotics/arm_ros2_ws/build/panda_description -- -j16 -l16
+[0.078s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_control.dir/src/joy_control.cpp.o[0m
+[0.098s] [100%] [32m[1mLinking CXX executable joy_control[0m
+[0.159s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.159s] (.text+0x1b): undefined reference to `main'
+[0.161s] collect2: error: ld returned 1 exit status
+[0.163s] gmake[2]: *** [CMakeFiles/joy_control.dir/build.make:183: joy_control] Error 1
+[0.163s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/joy_control.dir/all] Error 2
+[0.163s] gmake: *** [Makefile:146: all] Error 2
+[0.166s] Invoked command in '/home/octobotics/arm_ros2_ws/build/panda_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/octobotics/arm_ros2_ws/build/panda_description -- -j16 -l16

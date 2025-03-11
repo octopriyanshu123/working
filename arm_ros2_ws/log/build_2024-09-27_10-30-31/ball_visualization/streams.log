@@ -1,0 +1,32 @@
+[0.010s] Invoking command in '/home/octobotics/arm_ros2_ws/build/ball_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/octobotics/arm_ros2_ws/install/robotic_arms_control:/opt/ros/humble /usr/bin/cmake --build /home/octobotics/arm_ros2_ws/build/ball_visualization -- -j16 -l16
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target semulate_joy[0m
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target point_publisher[0m
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target panda_fk[0m
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target panda_if[0m
+[0.069s] [ 75%] Built target semulate_joy
+[0.069s] [ 75%] Built target panda_fk
+[0.069s] [ 75%] Built target point_publisher
+[0.069s] [100%] Built target panda_if
+[0.081s] Invoked command in '/home/octobotics/arm_ros2_ws/build/ball_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/octobotics/arm_ros2_ws/install/robotic_arms_control:/opt/ros/humble /usr/bin/cmake --build /home/octobotics/arm_ros2_ws/build/ball_visualization -- -j16 -l16
+[0.125s] Invoking command in '/home/octobotics/arm_ros2_ws/build/ball_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/octobotics/arm_ros2_ws/install/robotic_arms_control:/opt/ros/humble /usr/bin/cmake --install /home/octobotics/arm_ros2_ws/build/ball_visualization
+[0.132s] -- Install configuration: ""
+[0.132s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/lib/ball_visualization/point_publisher
+[0.132s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/lib/ball_visualization/panda_fk
+[0.132s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/lib/ball_visualization/panda_if
+[0.133s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/lib/ball_visualization/semulate_joy
+[0.133s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ament_index/resource_index/package_run_dependencies/ball_visualization
+[0.133s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ament_index/resource_index/parent_prefix_path/ball_visualization
+[0.133s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/environment/ament_prefix_path.sh
+[0.133s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/environment/ament_prefix_path.dsv
+[0.133s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/environment/path.sh
+[0.133s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/environment/path.dsv
+[0.133s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/local_setup.bash
+[0.133s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/local_setup.sh
+[0.133s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/local_setup.zsh
+[0.133s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/local_setup.dsv
+[0.133s] -- Installing: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/package.dsv
+[0.133s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ament_index/resource_index/packages/ball_visualization
+[0.133s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/cmake/ball_visualizationConfig.cmake
+[0.133s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/cmake/ball_visualizationConfig-version.cmake
+[0.133s] -- Up-to-date: /home/octobotics/arm_ros2_ws/install/ball_visualization/share/ball_visualization/package.xml
+[0.142s] Invoked command in '/home/octobotics/arm_ros2_ws/build/ball_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/octobotics/arm_ros2_ws/install/robotic_arms_control:/opt/ros/humble /usr/bin/cmake --install /home/octobotics/arm_ros2_ws/build/ball_visualization

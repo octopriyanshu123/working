@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000354] (-) JobUnselected: {'identifier': 'ball_visualization'}
+[0.000404] (-) JobUnselected: {'identifier': 'panda_description'}
+[0.000541] (-) EventReactorShutdown: {}
