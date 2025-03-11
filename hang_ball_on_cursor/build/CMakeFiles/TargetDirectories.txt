@@ -1,0 +1,3 @@
+/home/octo/Desktop/ui/hang_ball_on_cursor/build/CMakeFiles/rebuild_cache.dir
+/home/octo/Desktop/ui/hang_ball_on_cursor/build/CMakeFiles/edit_cache.dir
+/home/octo/Desktop/ui/hang_ball_on_cursor/build/CMakeFiles/ball_to_cursor.dir

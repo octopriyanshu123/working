@@ -1,0 +1,15 @@
+Dijkstra's_algorithm
+
+
+weight graph 
+minmal problam -> greedy problam 
+both directed and non directed graph
+
+
+working 
+
+from point starting and ending is select 
+
+finf the shortrd path 
+
+relax other vertax

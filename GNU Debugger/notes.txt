@@ -1,0 +1,58 @@
+Debugging with GDB
+To start debugging with GDB, follow these steps:
+
+Compile your program with debugging information: Use the -g flag when compiling your program to include debugging information.
+Start GDB: Run gdb followed by the name of your executable file.
+Run your program: Use the run command to start your program under GDB’s control.
+Set breakpoints: Use the break command to set breakpoints at specific locations in your code.
+Basic GDB Commands
+run (or r): Start your program under GDB’s control.
+break (or b): Set a breakpoint at a specific location.
+next (or n): Step through code, executing one statement at a time.
+step (or s): Step into a function, executing it line by line.
+print (or p): Print the value of a variable.
+quit (or q): Exit GDB.
+Generating Core Files
+To generate a core file when your program crashes, follow these steps:
+
+Enable core dumps: Set the CORE_DUMP environment variable to 1 or compile your program with the -g flag.
+Run your program: Run your program until it crashes.
+Load the core file into GDB: Use the core command to load the core file into GDB.
+Tips and Tricks
+Use the backtrace command to see the call stack when your program crashes.
+Use the frame command to switch between frames in the call stack.
+Use the info command to display information about variables, functions, and breakpoints.
+Use the set command to change the value of a variable while debugging.
+Use the display command to display the value of a variable automatically when it changes.
+
+Debugging the cpp program from the debugging symbols which get attach by -g flag and optimization -O0
+
+gdb ./gdbtest 
+add beak points at line 10 from .cpp
+beak main.cpp:10
+info breakpoints
+
+run
+continue
+backtrace or bt
+frame 1
+
+print i (i variable in main.cpp)
+watch i
+set var i=2
+
+
+--------------------------------------------------------
+Connect to the previous running cpp
+
+find the process id  = x
+
+sudo gdb
+attach x
+add the break points
+... Debug 
+detach
+
+
+kdbg = Debugging Gui
+kgdb = debugging linux kernal

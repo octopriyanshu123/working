@@ -1,0 +1,3 @@
+/media/octo/d73e6bae-15cd-4017-98c3-0eb873ce5396/home/octo/Desktop/bt/First_example/build/CMakeFiles/bt_first.dir
+/media/octo/d73e6bae-15cd-4017-98c3-0eb873ce5396/home/octo/Desktop/bt/First_example/build/CMakeFiles/edit_cache.dir
+/media/octo/d73e6bae-15cd-4017-98c3-0eb873ce5396/home/octo/Desktop/bt/First_example/build/CMakeFiles/rebuild_cache.dir

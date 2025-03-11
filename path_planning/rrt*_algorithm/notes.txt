@@ -1,0 +1,186 @@
+#include <iostream>
+#include <vector>
+#include <cmath>
+#include <cstdlib>
+#include <ctime>
+
+// Structure to represent a point in 2D space
+// struct Point {
+//     double x, y;  // x and y coordinates of the point
+
+//     // Constructor to initialize a point with optional x and y values
+//     Point(double x = 0, double y = 0) : x(x), y(y) {}
+
+//     // Method to calculate the distance between two points (Euclidean distance)
+//     double distance(const Point& other) const {
+//         return sqrt(pow(x - other.x, 2) + pow(y - other.y, 2));
+//     }
+
+//     // Method to move from the current point towards a target point by a step size
+//     // This function returns a new point along the path to the target with the specified step size
+//     Point moveTowards(const Point& target, double step_size) {
+//         double dist = distance(target);  // Calculate the distance to the target point
+//         if (dist < step_size) {  // If the target is within the step size, just return the target point
+//             return target;
+//         }
+//         // Otherwise, calculate the ratio of the step size to the distance and move towards the target
+//         double ratio = step_size / dist;
+//         return Point(x + (target.x - x) * ratio, y + (target.y - y) * ratio);
+//     }
+// };
+
+struct Point {
+    double x,y;
+    Point(double x = 0, double y = 0) :x(x), y(y){
+
+    }
+
+    double distance(const Point& other) const{
+        return sqrt(pow(x-other.x,2)+pow(y-other.y,2));
+    }
+
+    Point moveTowards(const Point& target,double step_size){
+        double dist = distance(target);
+        if(dist<step_size){
+            return target;
+        }
+        double ratio = step_size/dist;
+        int xNew = x+(target.x-x)*ratio;
+        int yNew = y+(target.y-y)*ratio;
+        return Point(xNew,yNew);
+    }
+};
+
+// RRT (Rapidly-exploring Random Tree) class that implements the RRT algorithm
+class RRT {
+public:
+    // Constructor to initialize the RRT parameters
+    RRT(double width, double height, double step_size, int max_iterations)
+        : width(width), height(height), step_size(step_size), max_iterations(max_iterations) {
+        // Initialize the start and goal points (start is at (0, 0) and goal is at (width-1, height-1))
+        start = Point(0, 0);
+        goal = Point(10, 10);
+    }
+
+    // Method to run the RRT algorithm to explore the space and build the tree
+    void run() {
+        tree.push_back(start);  // Add the start point as the first node in the tree
+
+        // Loop for a maximum number of iterations to grow the tree
+        // for (int i = 0; i < max_iterations; ++i) {
+        //     // Randomly sample a point in the space
+        //     Point sample = randomSample();
+
+        //     // Find the nearest node in the tree to the random sample
+        //     Point nearest = nearestNeighbor(sample);
+
+        //     // Move from the nearest node towards the sample by the step size
+        //     Point new_node = nearest.moveTowards(sample, step_size);
+
+        //     // Add the new node to the tree
+        //     tree.push_back(new_node);
+
+        //     // If the new node is close enough to the goal, stop the loop (goal reached)
+        //     if (new_node.distance(goal) < step_size) {
+        //         std::cout << "Goal reached at iteration " << i << std::endl;
+        //         break;
+        //     }
+        // }
+        tree.push_back(start); 
+        int reached_to_gole = false;
+        int num_iterations = 0;
+        while(!reached_to_gole){
+            num_iterations++;
+            Point sample = randomSample();
+            Point nearest = nearestNeighbor(sample);
+            Point new_node = nearest.moveTowards(sample,step_size);
+            tree.push_back(new_node);
+            if(new_node.distance(goal)<step_size){
+                reached_to_gole = true;
+                std::cout<<"reatched to gole "<<num_iterations<<std::endl;
+            }
+        }
+    }
+    
+    // Method to print all the points (nodes) in the tree
+    void printTree() {
+        std::cout << "Tree Nodes:" << std::endl;
+        // Loop through all the points in the tree and print their coordinates
+        for (const auto& node : tree) {
+            std::cout << "(" << node.x << ", " << node.y << ")" << std::endl;
+        }
+    }
+
+private:
+    double width, height;  // Dimensions of the space (width and height)
+    double step_size;      // The maximum distance to move in one step
+    int max_iterations;    // Maximum number of iterations to run the RRT algorithm
+    Point start, goal;     // Start and goal points
+    std::vector<Point> tree; // The tree, represented as a vector of points
+
+    // Method to generate a random sample point in the space (bounded by width and height)
+    Point randomSample() {
+        double x = static_cast<double>(rand()) / RAND_MAX * width;  // Random x coordinate between 0 and width
+        double y = static_cast<double>(rand()) / RAND_MAX * height; // Random y coordinate between 0 and height
+        return Point(x, y);  // Return a new random point
+    }
+
+    // Method to find the nearest node in the tree to a given point (sample)
+    Point nearestNeighbor(const Point& sample) {
+        Point nearest = tree[0];  // Start with the first point in the tree as the nearest
+        double min_distance = nearest.distance(sample);  // Calculate the distance to the sample
+
+        // Loop through all points in the tree and find the one closest to the sample
+        for (const auto& node : tree) {
+            double dist = node.distance(sample);
+            if (dist < min_distance) {  // If this point is closer, update the nearest point
+                nearest = node;
+                min_distance = dist;
+            }
+        }
+        return nearest;  // Return the nearest node found
+    }
+};
+
+int main() {
+    srand(time(0));  // Seed the random number generator to get different random numbers on each run
+
+    // Initialize the RRT algorithm with the specified space dimensions, step size, and max iterations
+    RRT rrt(100.0, 100.0, 1.0, 10000);
+
+    // Run the RRT algorithm to build the tree
+    rrt.run();
+
+    // Print out the nodes of the tree (the path the RRT algorithm explored)
+    //rrt.printTree();
+
+    return 0;
+}
+/*
+
+### Explanation of Key Concepts:
+
+1. **Point Structure**:
+   - Represents a 2D point with `x` and `y` coordinates.
+   - The `distance` method calculates the Euclidean distance between two points.
+   - The `moveTowards` method calculates a new point that is a fixed step size away from the current point, moving towards a target.
+
+2. **RRT Class**:
+   - `RRT` implements the Rapidly-exploring Random Tree algorithm.
+   - The `run` method builds the tree by repeatedly sampling random points and expanding the tree towards those points.
+   - The tree grows step by step, and once a node reaches the goal, the algorithm stops.
+   - The `nearestNeighbor` method finds the closest node in the tree to a given point, helping the tree grow towards sampled points.
+
+3. **Main Function**:
+   - Initializes an instance of the `RRT` class with the dimensions of the space (100x100 units), a step size of 1 unit, and a maximum of 1000 iterations.
+   - The `run` method is called to start the algorithm, which explores the space and attempts to find a path from the start to the goal.
+   - After running, the nodes of the tree are printed.
+
+### Key Notes:
+- The `run` method of the `RRT` class builds the tree iteratively by generating random points and extending the tree towards those points.
+- The `nearestNeighbor` method helps find the node in the tree closest to the random sample, which is important to expand the tree effectively.
+- The `moveTowards` method ensures that the tree moves step-by-step towards a random sample, which is crucial for the exploration of the space.
+
+With these detailed comments, you should be able to understand how the RRT algorithm works and how the code is structured to implement it. Let me know if you need further clarifications!
+
+*/

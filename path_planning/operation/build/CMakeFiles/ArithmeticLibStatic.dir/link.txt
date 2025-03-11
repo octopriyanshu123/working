@@ -1,0 +1,2 @@
+/usr/bin/ar qc libArithmeticLibStatic.a  CMakeFiles/ArithmeticLibStatic.dir/ArithmeticLib.cpp.o
+/usr/bin/ranlib libArithmeticLibStatic.a

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/octo/Desktop/ui/physic_code/line/src/main.cpp
+GL/glu.h
+-
+GL/glut.h
+-
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+

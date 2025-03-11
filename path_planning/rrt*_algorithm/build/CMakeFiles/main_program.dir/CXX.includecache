@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/octo/Desktop/ui/path_planning/rrt*_algorithm/src/main.cpp
+SFML/Graphics.hpp
+-
+iostream
+-
+vector
+-
+random
+-
+

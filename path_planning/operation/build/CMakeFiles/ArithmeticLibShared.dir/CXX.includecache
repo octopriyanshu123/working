@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/octo/Desktop/ui/path_planning/operation/ArithmeticLib.cpp
+ArithmeticLib.h
+/home/octo/Desktop/ui/path_planning/operation/ArithmeticLib.h
+stdexcept
+-
+
+/home/octo/Desktop/ui/path_planning/operation/ArithmeticLib.h
+

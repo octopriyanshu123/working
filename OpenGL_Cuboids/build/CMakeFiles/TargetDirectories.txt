@@ -1,0 +1,3 @@
+/home/octo/Desktop/ui/OpenGL_Cuboids/build/CMakeFiles/rebuild_cache.dir
+/home/octo/Desktop/ui/OpenGL_Cuboids/build/CMakeFiles/edit_cache.dir
+/home/octo/Desktop/ui/OpenGL_Cuboids/build/CMakeFiles/random_cuboid.dir

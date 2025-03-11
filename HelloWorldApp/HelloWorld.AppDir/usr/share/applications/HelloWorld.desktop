@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=HelloWorld
+Comment=A simple Hello World application
+Exec=./hello %F
+Icon=icon.png
+Categories=Utility;

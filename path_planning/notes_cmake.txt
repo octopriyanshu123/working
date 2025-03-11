@@ -1,0 +1,20 @@
+cmake ..
+cmake -S ..
+
+
+cmake_minimum_required(VERSION 3.16.3)   the current version of the cmake we have 
+project(rrt_visulizer)                     the project name which can be further use as variable name  ${PROJECT_NAME}
+
+add_executable(${PROJECT_NAME} main2.cpp)              whay to add the executable
+install(TARGETS ${PROJECT_NAME} DESTINATION bin)       install the executable in the machine /usr/local/bin/
+
+
+
+# runthe cmake command cmake .. or cmake -S .. -B      cmake .. here .. mean previous directery 
+                                                        cmake -S 
+                                                        -S mean source of the cmakelists file
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/path/to/your/bin
+link_directories(/path/to/install/bin)
+target_link_directery
+target_link_libraries(new_program libArithmeticLibStatic)                                                         

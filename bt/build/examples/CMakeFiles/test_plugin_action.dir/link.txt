@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,test_plugin_action.so -o test_plugin_action.so CMakeFiles/test_plugin_action.dir/plugin_example/plugin_action.cpp.o  -Wl,-rpath,/media/octo/d73e6bae-15cd-4017-98c3-0eb873ce5396/home/octo/Desktop/bt/build ../libbehaviortree_cpp.so /usr/lib/x86_64-linux-gnu/libzmq.so /usr/lib/x86_64-linux-gnu/libsqlite3.so 

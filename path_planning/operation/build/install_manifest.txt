@@ -1,0 +1,4 @@
+/usr/local/lib/libArithmeticLibStatic.a
+/usr/local/lib/libArithmeticLibShared.so
+/usr/local/include/ArithmeticLib.h
+/usr/local/bin/main_program

@@ -1,0 +1,3 @@
+/home/octo/Desktop/ui/physic_code/line/build/CMakeFiles/rebuild_cache.dir
+/home/octo/Desktop/ui/physic_code/line/build/CMakeFiles/edit_cache.dir
+/home/octo/Desktop/ui/physic_code/line/build/CMakeFiles/SunAndCircle.dir

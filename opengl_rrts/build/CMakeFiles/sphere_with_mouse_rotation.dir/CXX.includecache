@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/octo/Desktop/ui/opengl_rrts/src/main.cpp
+GL/glut.h
+-
+cmath
+-
+array
+-
+vector
+-
+iostream
+-
+unistd.h
+-
+

@@ -1,0 +1,8 @@
+cflags = -Wall
+cc = g++
+
+
+rule cc
+  command = $cc $cflags -o $out $in
+
+build main: cc test.cpp

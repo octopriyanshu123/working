@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/octo/Desktop/ui/OpenGL_Cuboids/src/main.cpp
+GL/glut.h
+-
+cstdlib
+-
+ctime
+-
+vector
+-
+cmath
+-
+

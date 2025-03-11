@@ -1,0 +1,27 @@
+#include <GL/glut.h>
+
+#define window_width  800
+#define window_height 800
+
+void GL_Setup(int width, int height) {
+    glViewport(0, 0, width, height);
+    glMatrixMode(GL_PROJECTION);
+    glLoadIdentity();  // Reset projection matrix
+    glOrtho(-1, 1, -1, 1, -1, 1);  // Orthographic projection for 2D rendering
+    glMatrixMode(GL_MODELVIEW);
+}
+
+void main_loop_function() {
+    glClear(GL_COLOR_BUFFER_BIT);  // Clear the screen
+    glutSwapBuffers();  // Swap the buffers
+}
+
+int main(int argc, char** argv) {
+    glutInit(&argc, argv);
+    glutInitWindowSize(window_width, window_height);
+    glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE);
+    glutCreateWindow("Simple Screen");
+    glutIdleFunc(main_loop_function);  // Set idle function for rendering
+    GL_Setup(window_width, window_height);  // Set up OpenGL
+    glutMainLoop();  // Start main loop
+}
