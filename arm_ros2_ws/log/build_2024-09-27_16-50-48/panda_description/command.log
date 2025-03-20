@@ -1,2 +1,0 @@
-Invoking command in '/home/octobotics/arm_ros2_ws/build/panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/octobotics/arm_ros2_ws/build/panda_description -- -j16 -l16
-Invoked command in '/home/octobotics/arm_ros2_ws/build/panda_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/octobotics/arm_ros2_ws/build/panda_description -- -j16 -l16

@@ -1,2 +1,0 @@
-Invoking command in '/home/octobotics/arm_ros2_ws/build/ball_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/octobotics/arm_ros2_ws/install/robotic_arms_control:/opt/ros/humble /usr/bin/cmake --build /home/octobotics/arm_ros2_ws/build/ball_visualization -- -j16 -l16
-Invoked command in '/home/octobotics/arm_ros2_ws/build/ball_visualization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/octobotics/arm_ros2_ws/install/robotic_arms_control:/opt/ros/humble /usr/bin/cmake --build /home/octobotics/arm_ros2_ws/build/ball_visualization -- -j16 -l16

@@ -1,7 +1,0 @@
-[01m[K/home/octobotics/arm_ros2_ws/Robotic_arm/src/ball_visualization/src/panda_if.cpp:[m[K In member function ‘[01m[Kstd::vector<double, std::allocator<double> > InverseKinematics::computeIK(double, double, double, double, double, double)[m[K’:
-[01m[K/home/octobotics/arm_ros2_ws/Robotic_arm/src/ball_visualization/src/panda_if.cpp:45:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kroll[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-   45 | std::vector<double> computeIK(double x, double y, double z, [01;35m[Kdouble roll[m[K, double pitch, double yaw) {
-      |                                                             [01;35m[K~~~~~~~^~~~[m[K
-[01m[K/home/octobotics/arm_ros2_ws/Robotic_arm/src/ball_visualization/src/panda_if.cpp:45:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpitch[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-   45 | std::vector<double> computeIK(double x, double y, double z, double roll, [01;35m[Kdouble pitch[m[K, double yaw) {
-      |                                                                          [01;35m[K~~~~~~~^~~~~[m[K

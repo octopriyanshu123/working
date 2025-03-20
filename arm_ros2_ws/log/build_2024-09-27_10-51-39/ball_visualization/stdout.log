@@ -1,5 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target panda_if[0m
-[ 75%] Built target semulate_joy
-[ 75%] Built target panda_fk
-[ 75%] Built target point_publisher
-[ 87%] [32mBuilding CXX object CMakeFiles/panda_if.dir/src/panda_if.cpp.o[0m
