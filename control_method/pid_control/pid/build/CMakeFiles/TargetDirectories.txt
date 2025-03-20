@@ -1,7 +1,0 @@
-/home/octo/Desktop/ui/control_method/pid_control/pid/build/CMakeFiles/install/strip.dir
-/home/octo/Desktop/ui/control_method/pid_control/pid/build/CMakeFiles/install/local.dir
-/home/octo/Desktop/ui/control_method/pid_control/pid/build/CMakeFiles/edit_cache.dir
-/home/octo/Desktop/ui/control_method/pid_control/pid/build/CMakeFiles/install.dir
-/home/octo/Desktop/ui/control_method/pid_control/pid/build/CMakeFiles/list_install_components.dir
-/home/octo/Desktop/ui/control_method/pid_control/pid/build/CMakeFiles/rebuild_cache.dir
-/home/octo/Desktop/ui/control_method/pid_control/pid/build/CMakeFiles/pid.dir
