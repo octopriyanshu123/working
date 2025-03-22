@@ -3,7 +3,7 @@ CCFLAGS = -std=c++2a -pthread
 
 TARGET = program
 
-SRC = main.cpp
+SRC = pthread.cpp
 
 $(TARGET): $(SRC)
 	$(CC) $(CCFLAGS) -o $(TARGET) $(SRC)
